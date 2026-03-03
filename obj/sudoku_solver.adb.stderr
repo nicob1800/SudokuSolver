@@ -1,0 +1,1 @@
+sudoku_solver.adb:6:04: warning: variable "Current_Square" is never read and never assigned [-gnatwv]

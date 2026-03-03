@@ -31,6 +31,7 @@ package body ada_main is
    E117 : Short_Integer; pragma Import (Ada, E117, "ada__finalization_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__file_io_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__text_io_E");
+   E122 : Short_Integer; pragma Import (Ada, E122, "sudoku_engine_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -208,6 +209,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E106 := E106 + 1;
+      E122 := E122 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -245,6 +247,7 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
+   --   C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_engine.o
    --   C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_solver.o
    --   -LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
    --   -LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
