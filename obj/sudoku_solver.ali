@@ -31,7 +31,7 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D sudoku_solver.adb	20260303070814 53aaad10 sudoku_solver%b
+D sudoku_solver.adb	20260303071534 53aaad10 sudoku_solver%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -52,45 +52,45 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [sudoku_solver standard 3 11 none]
+G c Z b b [sudoku_solver standard 2 11 none]
 X 1 ada.ads
 16K9*Ada 20e8 13|1r6 1r23
 X 9 a-textio.ads
 58K13*Text_IO 725e16 13|1w10 1r27
-262U14*New_Line 13|37s13 80s13 82s10
-463U14*Put 13|26s13 30s13 32s13 36s13 39s13 47s6 55s16 58s13 62s13 64s13
-479U14*Get_Line 13|100s7
-506U14*Put_Line 13|73s7 88s4 89s4 90s4 91s4 92s4 93s4 98s7
+262U14*New_Line 13|36s13 79s13 81s10
+463U14*Put 13|25s13 29s13 31s13 35s13 38s13 46s6 54s16 57s13 61s13 63s13
+479U14*Get_Line 13|99s7
+506U14*Put_Line 13|72s7 87s4 88s4 89s4 90s4 91s4 92s4 97s7
 X 13 sudoku_solver.adb
-3U11*Sudoku_Solver 3b11 150l5 150t18
-6A9 Integer_Array(integer)<integer> 9r31
-7R9 Possibilities 7d23 10e33 11r43
-7i23 Max_Size{positive} 9r50
-8i23 Count{natural} 29r23 49r23 110m35 117m41 126m38 133m41
-9a23 Data{6A9} 30r41 53r56 111m35 118m41 127m38 134m41
-11A9 Specific_Square(7R9)<integer> 13r40 16r21 21r35 45r32
-13A9 Puzzle_Array(11A9)<integer> 19r13 70r35
-15a4 Entries{string} 100m16 104r17 108r16 114r50 124r16 130r50
-16a4 Current_Square{11A9} 109m16 116m19 125m16 132m19 142r26 143r19
-17i4 Last{natural} 100m25 106r21
-18i4 Squares{integer} 95m7 95r18 96r17 98r43 142r14
-19a4 Puzzle{13A9} 142m7 147r16
-21U14 Show_Square 21b14 21>26 43l8 43t19 143s7
-21a26 Square{11A9} 29r13 30r31
-24i11 I{integer} 25r13 29r20 30r38 35r13
-45U14 Show_Row 45b14 45>23 45>49 67l8 67t16 78s16
-45a23 Square{11A9} 49r13 53r46
-45i49 Row_Number{integer} 48r18 48r36
-48i11 I{integer} 49r20 53r53 61r13
-53a16 Img{string} 55r20 55r29
-70U14 Show_Puzzle 70b14 70>26 84l8 84t19 147s4
-70a26 Puzzle{13A9} 76r27
-71i7 y{integer} 77m16 77r21
-74i11 I{integer} 76r36 76r45
-75i14 J{integer} 78r33
-76a17 Square=76:17{11A9} 78r25
-106i11 I{integer} 107r13 108r24 109r31 114r58 116r34 124r24 125r31 130r58
-. 132r34
-114i19 Val{integer} 118r59
-130i19 Val{integer} 134r59
+2U11*Sudoku_Solver 2b11 149l5 149t18
+5A9 Integer_Array(integer)<integer> 8r31
+6R9 Possibilities 6d23 9e33 10r43
+6i23 Max_Size{positive} 8r50
+7i23 Count{natural} 28r23 48r23 109m35 116m41 125m38 132m41
+8a23 Data{5A9} 29r41 52r56 110m35 117m41 126m38 133m41
+10A9 Specific_Square(6R9)<integer> 12r40 15r21 20r35 44r32
+12A9 Puzzle_Array(10A9)<integer> 18r13 69r35
+14a4 Entries{string} 99m16 103r17 107r16 113r50 123r16 129r50
+15a4 Current_Square{10A9} 108m16 115m19 124m16 131m19 141r26 142r19
+16i4 Last{natural} 99m25 105r21
+17i4 Squares{integer} 94m7 94r18 95r17 97r43 141r14
+18a4 Puzzle{12A9} 141m7 146r16
+20U14 Show_Square 20b14 20>26 42l8 42t19 142s7
+20a26 Square{10A9} 28r13 29r31
+23i11 I{integer} 24r13 28r20 29r38 34r13
+44U14 Show_Row 44b14 44>23 44>49 66l8 66t16 77s16
+44a23 Square{10A9} 48r13 52r46
+44i49 Row_Number{integer} 47r18 47r36
+47i11 I{integer} 48r20 52r53 60r13
+52a16 Img{string} 54r20 54r29
+69U14 Show_Puzzle 69b14 69>26 83l8 83t19 146s4
+69a26 Puzzle{12A9} 75r27
+70i7 y{integer} 76m16 76r21
+73i11 I{integer} 75r36 75r45
+74i14 J{integer} 77r33
+75a17 Square=75:17{10A9} 77r25
+105i11 I{integer} 106r13 107r24 108r31 113r58 115r34 123r24 124r31 129r58
+. 131r34
+113i19 Val{integer} 117r59
+129i19 Val{integer} 133r59
 
