@@ -1,0 +1,96 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U sudoku_solver%b	sudoku_solver.adb	fd5e787d NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D sudoku_solver.adb	20260303070814 53aaad10 sudoku_solver%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [sudoku_solver standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 13|1w10 1r27
+262U14*New_Line 13|37s13 80s13 82s10
+463U14*Put 13|26s13 30s13 32s13 36s13 39s13 47s6 55s16 58s13 62s13 64s13
+479U14*Get_Line 13|100s7
+506U14*Put_Line 13|73s7 88s4 89s4 90s4 91s4 92s4 93s4 98s7
+X 13 sudoku_solver.adb
+3U11*Sudoku_Solver 3b11 150l5 150t18
+6A9 Integer_Array(integer)<integer> 9r31
+7R9 Possibilities 7d23 10e33 11r43
+7i23 Max_Size{positive} 9r50
+8i23 Count{natural} 29r23 49r23 110m35 117m41 126m38 133m41
+9a23 Data{6A9} 30r41 53r56 111m35 118m41 127m38 134m41
+11A9 Specific_Square(7R9)<integer> 13r40 16r21 21r35 45r32
+13A9 Puzzle_Array(11A9)<integer> 19r13 70r35
+15a4 Entries{string} 100m16 104r17 108r16 114r50 124r16 130r50
+16a4 Current_Square{11A9} 109m16 116m19 125m16 132m19 142r26 143r19
+17i4 Last{natural} 100m25 106r21
+18i4 Squares{integer} 95m7 95r18 96r17 98r43 142r14
+19a4 Puzzle{13A9} 142m7 147r16
+21U14 Show_Square 21b14 21>26 43l8 43t19 143s7
+21a26 Square{11A9} 29r13 30r31
+24i11 I{integer} 25r13 29r20 30r38 35r13
+45U14 Show_Row 45b14 45>23 45>49 67l8 67t16 78s16
+45a23 Square{11A9} 49r13 53r46
+45i49 Row_Number{integer} 48r18 48r36
+48i11 I{integer} 49r20 53r53 61r13
+53a16 Img{string} 55r20 55r29
+70U14 Show_Puzzle 70b14 70>26 84l8 84t19 147s4
+70a26 Puzzle{13A9} 76r27
+71i7 y{integer} 77m16 77r21
+74i11 I{integer} 76r36 76r45
+75i14 J{integer} 78r33
+76a17 Square=76:17{11A9} 78r25
+106i11 I{integer} 107r13 108r24 109r31 114r58 116r34 124r24 125r31 130r58
+. 132r34
+114i19 Val{integer} 118r59
+130i19 Val{integer} 134r59
+

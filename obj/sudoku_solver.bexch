@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__sudoku_solver.o
+[PROJECT FILES]
+C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr
+20260303070740 7f3862654fbd8aa20ff2c6a4de8f2327
+[BOUND OBJECT FILES]
+C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_solver.o
+[GENERATED SOURCE FILES]
+b__sudoku_solver.ads
+b__sudoku_solver.adb
+b__sudoku_solver.ali
+[RESULTING OPTIONS]
+-LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
+-LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
