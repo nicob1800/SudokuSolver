@@ -3,7 +3,6 @@ with Sudoku_Engine; use Sudoku_Engine;
 procedure Sudoku_Solver is
 
    Entries        : String (1..11);
-   Current_Square : Specific_Square;
    Last           : Natural;
    Squares        : Integer := 0;
    Puzzle         : Puzzle_Array;
