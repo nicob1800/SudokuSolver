@@ -11,7 +11,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U sudoku_solver%b	sudoku_solver.adb	3577c1fd NE OO SU
+U sudoku_solver%b	sudoku_solver.adb	ec4f5a10 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -32,7 +32,7 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D sudoku_engine.ads	20260303204154 61b05f96 sudoku_engine%s
-D sudoku_solver.adb	20260303204322 fa334b06 sudoku_solver%b
+D sudoku_solver.adb	20260303204602 230bd0eb sudoku_solver%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -54,7 +54,6 @@ D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [sudoku_solver standard 3 11 none]
-G r s Tspecific_squareB [sudoku_solver standard 3 11 none] [Tspecific_squareBIP sudoku_engine 8 4 none]
 G r s Tpuzzle_arrayB [sudoku_solver standard 3 11 none] [Tpuzzle_arrayBIP sudoku_engine 9 4 none]
 G r c none [sudoku_solver standard 3 11 none] [parse_square sudoku_engine 14 13 none]
 G r c none [sudoku_solver standard 3 11 none] [show_square sudoku_engine 11 14 none]
@@ -63,20 +62,19 @@ X 1 ada.ads
 16K9*Ada 20e8 14|1r6 1r23
 X 9 a-textio.ads
 58K13*Text_IO 725e16 14|1w10 1r27
-479U14*Get_Line 14|25s7
-506U14*Put_Line 14|13s4 14s4 15s4 16s4 17s4 18s4 24s7
+479U14*Get_Line 14|24s7
+506U14*Put_Line 14|12s4 13s4 14s4 15s4 16s4 17s4 23s7
 X 13 sudoku_engine.ads
 1K9*Sudoku_Engine 18e18 14|2w6 2r25
-8A9*Specific_Square(4R9)<integer> 14|6r21
-9A9*Puzzle_Array(8A9)<integer> 14|9r21
-11U14*Show_Square 14|29s7
-13U14*Show_Puzzle 14|33s4
-14V13*Parse_Square{8A9} 14|28s26
+8A9*Specific_Square(4R9)<integer>
+9A9*Puzzle_Array(8A9)<integer> 14|8r21
+11U14*Show_Square 14|28s7
+13U14*Show_Puzzle 14|32s4
+14V13*Parse_Square{8A9} 14|27s26
 X 14 sudoku_solver.adb
-3U11*Sudoku_Solver 3b11 38l5 38t18
-5a4 Entries{string} 25m16 26r17 28r39
-6a4 Current_Square{13|8A9}
-7i4 Last{natural} 25m25 28r48
-8i4 Squares{integer} 21m7 21r18 22r17 24r43 28r14 29r26
-9a4 Puzzle{13|9A9} 28m7 29r19 33r16
+3U11*Sudoku_Solver 3b11 37l5 37t18
+5a4 Entries{string} 24m16 25r17 27r39
+6i4 Last{natural} 24m25 27r48
+7i4 Squares{integer} 20m7 20r18 21r17 23r43 27r14 28r26
+8a4 Puzzle{13|9A9} 27m7 28r19 32r16
 

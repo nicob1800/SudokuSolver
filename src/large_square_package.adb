@@ -1,5 +1,5 @@
-package body Square_Package is
+package body large_Square_Package is
 
    
 
-end Square_Package;
+end large_Square_Package;
