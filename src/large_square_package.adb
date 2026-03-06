@@ -1,12 +1,11 @@
-with Individual_Square; use Individual_Square;
 package body Large_Square_Package is
-   Complete : Boolean := False;
-
    function Create_Large_Square(x : Integer; y : Integer) return Instance is
    begin
-      return Instance'(Pos => (Row => y, Col => x));
-   end Create_Large_Square;
-   
-    
 
+      return (Pos   => (Row => y, Col => x),
+              Cells => (others => (others => Create_Square(Spot     => (Row => 1, Col => 1), 
+                                                           Block_ID => 1, 
+                                                           Value    => 0, 
+                                                           Options  => (others => True)))));
+   end Create_Large_Square;
 end Large_Square_Package;

@@ -1,10 +1,7 @@
-With Large_Square_Package; use Large_Square_Package;
 package body Individual_Square is
-
-   
-   function Create_Square(Spot : Position; Group : Large_Square; Value : Integer; Options : Possibilities) return Instance is
+   function Create_Square(Spot : Position; Block_ID : Integer; Value : Integer; Options : Possibilities) return Instance is
    begin      
-      return (Value => Value, Row => Spot.Row, Col => Spot.Col, My_Group => Group, Options => Options);
+      return (Value => Value, Row => Spot.Row, Col => Spot.Col, Block_ID => Block_ID, Options => Options);
    end Create_Square;
    
    procedure Set_Value(Self : in out Instance; Value : Integer) is
@@ -21,6 +18,4 @@ package body Individual_Square is
    begin
       Self.Options := New_Options;
    end Modify_Possibilities;
-   
-
 end Individual_Square;
