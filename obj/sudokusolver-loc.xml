@@ -1,167 +1,28 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file />
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 47" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 47" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 47" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 35" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 47" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 47" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\vcs2_diff.diff</vfs_file>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 6" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 3" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
       <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 9" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 5" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 8" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 3" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 72" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 75" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 76" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 16" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 17" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 20" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 22" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 73" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 4" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 51" line=" 54" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 4" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 51" line=" 54" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 5" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 17" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 32" >
-      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 5" >
       <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
       <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
     </file_marker>
@@ -169,9 +30,733 @@
       <vfs_project />
       <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\b__sudoku_solver.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_solver.o</vfs_file>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\b__sudoku_solver.ali</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 72" line=" 19" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 71" line=" 12" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 13" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 28" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 28" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 53" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 53" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 53" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 13" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 53" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 2" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 13" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 104" line=" 14" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 29" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 2" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 14" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 8" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 58" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 8" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 9" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project />
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 6" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_engine.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 58" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 57" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_solver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 97" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 8" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 7" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\large_square_package.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 7" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 8" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 27" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 8" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 27" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 9" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 4" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 15" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\individual_square.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 13" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\puzzle.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\sudokusolver.gpr</vfs_project>
+      <vfs_file>C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\src\sudoku_types.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -51,20 +51,7 @@ package body Sudoku_Engine is
       end loop;
    end Show_Square;
    
-   procedure Show_Puzzle(Puzzle : Puzzle_Array) is
-   begin
-      Put_Line(" _____________________________________");
-      for I in 1..3 loop
-         for J in 1..3 loop
-            for Square of Puzzle(3*I-2 .. 3*I) loop
-               Show_Row(Square, J);
-            end loop;
-            New_Line;
-         end loop;
-         New_Line;
-      end loop;
-   end Show_Puzzle;
-   
+  
       
    function Parse_Square(Input : String; Last : Natural) return Specific_Square is
       Temp_Square : Specific_Square;
