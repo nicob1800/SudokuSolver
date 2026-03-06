@@ -1,0 +1,4 @@
+sudoku_solver.adb:2:06: error: file "sudoku_types.ads" not found
+sudoku_solver.adb:2:06: error: "Sudoku_Solver (body)" depends on "Sudoku_Engine (spec)"
+sudoku_solver.adb:2:06: error: "Sudoku_Engine (spec)" depends on "Sudoku_Types (spec)"
+sudoku_solver.adb:3:06: error: file "puzzle.ads" not found
