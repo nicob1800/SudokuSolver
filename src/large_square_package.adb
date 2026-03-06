@@ -1,5 +1,12 @@
-package body large_Square_Package is
+with Individual_Square; use Individual_Square;
+package body Large_Square_Package is
+   Complete : Boolean := False;
 
+   function Create_Large_Square(x : Integer; y : Integer) return Instance is
+   begin
+      return Instance'(Pos => (Row => y, Col => x));
+   end Create_Large_Square;
    
+    
 
-end large_Square_Package;
+end Large_Square_Package;
