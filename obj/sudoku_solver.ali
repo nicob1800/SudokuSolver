@@ -11,13 +11,14 @@ RV NO_SECONDARY_STACK
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U sudoku_solver%b	sudoku_solver.adb	46cc9796 NE OO SU
+U sudoku_solver%b	sudoku_solver.adb	42d71d91 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W puzzle%s		puzzle.adb		puzzle.ali
 W sudoku_engine%s	sudoku_engine.adb	sudoku_engine.ali
+W sudoku_types%s	sudoku_types.ads	sudoku_types.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -32,14 +33,14 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D individual_square.ads	20260306073602 82291c80 individual_square%s
+D individual_square.ads	20260306172220 980a40c3 individual_square%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D large_square_package.ads  20260306072836 005ede89 large_square_package%s
-D puzzle.ads		20260306072944 bb969c0d puzzle%s
-D sudoku_engine.ads	20260306074028 fe8f0144 sudoku_engine%s
-D sudoku_solver.adb	20260306073050 ad21dfb2 sudoku_solver%b
-D sudoku_types.ads	20260306074138 2c5fc8e5 sudoku_types%s
+D large_square_package.ads  20260306164612 005ede89 large_square_package%s
+D puzzle.ads		20260306171734 5d869780 puzzle%s
+D sudoku_engine.ads	20260306174044 fe8f0144 sudoku_engine%s
+D sudoku_solver.adb	20260306175154 a2c4b0ef sudoku_solver%b
+D sudoku_types.ads	20260306171416 edeeeed7 sudoku_types%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -61,49 +62,56 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [sudoku_solver standard 5 11 none]
-G r c none [sudoku_solver standard 5 11 none] [create_board puzzle 8 13 none]
-G r c none [sudoku_solver standard 5 11 none] [parse_square sudoku_engine 9 13 none]
-G r c none [sudoku_solver standard 5 11 none] [set_global_square puzzle 12 14 none]
-G r c none [sudoku_solver standard 5 11 none] [show_square sudoku_engine 6 14 none]
-G r c none [sudoku_solver standard 5 11 none] [show_puzzle puzzle 9 14 none]
+G c Z b b [sudoku_solver standard 6 11 none]
+G r c none [sudoku_solver standard 6 11 none] [create_board puzzle 8 13 none]
+G r c none [sudoku_solver standard 6 11 none] [parse_square sudoku_engine 8 13 none]
+G r c none [sudoku_solver standard 6 11 none] [set_global_square puzzle 10 14 none]
+G r c none [sudoku_solver standard 6 11 none] [show_square sudoku_engine 6 14 none]
+G r c none [sudoku_solver standard 6 11 none] [show_puzzle puzzle 19 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|1r6 1r23
+16K9*Ada 20e8 17|1r6 1r25
 X 9 a-textio.ads
-58K13*Text_IO 725e16 17|1w10 1r27
-479U14*Get_Line 17|23s7
-506U14*Put_Line 17|11s4 12s4 13s4 14s4 15s4 16s4 22s7
+58K13*Text_IO 725e16 17|1w10 1r29
+262U14*New_Line 17|46s10
+479U14*Get_Line 17|40s7
+506U14*Put_Line 17|28s4 29s4 30s4 31s4 32s4 33s4 39s7 44s10
 X 15 puzzle.ads
-3K9*Puzzle 20e11 17|3w6 3r18 9r15 9r31 58r4
-5I12*Sudoku_Range{integer} 17|31r28 32r28 41r27 42r27
-6R9*Board 19e14 17|9r22
-8V13*Create_Board{6R9} 17|9s38
-9U14*Show_Puzzle 17|58s11
-12U14*Set_Global_Square 17|47s25
-12i53 Row{5I12} 17|47r43
-12i73 Col{5I12} 17|48r43
-12i93 Value{integer} 17|49r43
+4K9*Puzzle 29e11 17|4w6 4r25 10r15 10r31 85r4
+6R9*Board 27e14 17|10r22
+8V13*Create_Board{6R9} 17|10s38
+10U14*Set_Global_Square 17|74s28
+12i7 Row{18|3I12} 17|75r22
+13i7 Col{18|3I12} 17|75r39
+14i7 Value{integer} 17|75r56
+19U14*Show_Puzzle 17|85s11
 X 16 sudoku_engine.ads
-3K9*Sudoku_Engine 10e18 17|2w6 2r25 28r24 28r57 53r10
-4A9*Specific_Square(18|6R9)<integer> 17|28r38
-6U14*Show_Square 17|53s24
-9V13*Parse_Square{4A9} 17|28s71
+3K9*Sudoku_Engine 10e18 17|2w6 2r25 50r27 51r15 79r13
+4A9*Specific_Square(18|9R9)<integer> 17|50r41
+6U14*Show_Square 17|79s27
+8V13*Parse_Square{4A9} 17|51s29
 X 17 sudoku_solver.adb
-5U11*Sudoku_Solver 5b11 60l5 60t18
-6a4 Entries{string} 23m16 24r17 28r84
-7i4 Last{natural} 23m25 28r93
-8i4 Squares{integer} 19m7 19r18 20r17 22r43 31r46 32r46
-9r4 My_Board{15|6R9} 47m16 47r16 58r23
-28a10 Temp_Square{16|4A9} 45r33 53r36
-31i10 Block_Row_Start{15|5I12} 41r43
-32i10 Block_Col_Start{15|5I12} 42r43
-34i14 I{integer} 37r41 38r41 45r45
-37i16 Internal_R{integer} 41r61
-38i16 Internal_C{integer} 42r61
-41i16 Global_R{15|5I12} 47r52
-42i16 Global_C{15|5I12} 48r52
-45i16 Val{integer} 49r52
+6U11*Sudoku_Solver 6b11 87l5 87t18
+7a4 Entries{string} 40m17 41r35 43r37 51r43
+8i4 Last{natural} 40m26 41r17 43r46 51r52
+9i4 Squares{integer} 36m7 36r18 37r17 39r44 45m10 45r21 54r49 55r49
+10r4 My_Board{15|6R9} 74m19 74r19 85r24
+12V13 Is_Valid_Square_Input{boolean} 12b13 13>7 13>23 26l8 26t29 43s14
+13a7 Input{string} 20r18 20r50
+13i23 Input_Last{natural} 15r10
+19i11 I{integer} 20r25 20r57
+50a13 Temp_Square{16|4A9} 70r22 71r29 79r40
+54i13 Block_Row_Start{18|3I12} 64r46
+55i13 Block_Col_Start{18|3I12} 65r46
+57i17 I{integer} 60r44 61r44 70r35 71r42
+60i19 Internal_R{integer} 64r64
+61i19 Internal_C{integer} 65r64
+64i19 Global_R{18|3I12} 75r29
+65i19 Global_C{18|3I12} 75r46
+68i19 Val{integer} 71m22 75r65
 X 18 sudoku_types.ads
-4A9*Integer_Array(integer)<integer>
-8a7*Data{4A9} 17|45r48
+1K9*Sudoku_Types 17|3w6 3r25 18|19e17
+3I12*Sudoku_Range{integer} 17|54r31 55r31 64r30 65r30
+7A9*Integer_Array(integer)<integer>
+10i7*Count{natural} 17|70r38
+11a7*Data{7A9} 17|71r45
 

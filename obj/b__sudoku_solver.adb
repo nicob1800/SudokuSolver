@@ -31,7 +31,10 @@ package body ada_main is
    E117 : Short_Integer; pragma Import (Ada, E117, "ada__finalization_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__file_io_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__text_io_E");
-   E122 : Short_Integer; pragma Import (Ada, E122, "sudoku_engine_E");
+   E126 : Short_Integer; pragma Import (Ada, E126, "individual_square_E");
+   E124 : Short_Integer; pragma Import (Ada, E124, "large_square_package_E");
+   E122 : Short_Integer; pragma Import (Ada, E122, "puzzle_E");
+   E136 : Short_Integer; pragma Import (Ada, E136, "sudoku_engine_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -42,19 +45,40 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E106 := E106 - 1;
+      E122 := E122 - 1;
       declare
          procedure F1;
-         pragma Import (Ada, F1, "ada__text_io__finalize_spec");
+         pragma Import (Ada, F1, "puzzle__finalize_spec");
       begin
          F1;
       end;
+      E124 := E124 - 1;
       declare
          procedure F2;
-         pragma Import (Ada, F2, "system__file_io__finalize_body");
+         pragma Import (Ada, F2, "large_square_package__finalize_spec");
+      begin
+         F2;
+      end;
+      E126 := E126 - 1;
+      declare
+         procedure F3;
+         pragma Import (Ada, F3, "individual_square__finalize_spec");
+      begin
+         F3;
+      end;
+      E106 := E106 - 1;
+      declare
+         procedure F4;
+         pragma Import (Ada, F4, "ada__text_io__finalize_spec");
+      begin
+         F4;
+      end;
+      declare
+         procedure F5;
+         pragma Import (Ada, F5, "system__file_io__finalize_body");
       begin
          E116 := E116 - 1;
-         F2;
+         F5;
       end;
       declare
          procedure Reraise_Library_Exception_If_Any;
@@ -209,7 +233,16 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E106 := E106 + 1;
+      Individual_Square'Elab_Spec;
+      Individual_Square'Elab_Body;
+      E126 := E126 + 1;
+      Large_Square_Package'Elab_Spec;
+      Large_Square_Package'Elab_Body;
+      E124 := E124 + 1;
+      Puzzle'Elab_Spec;
+      Puzzle'Elab_Body;
       E122 := E122 + 1;
+      E136 := E136 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -247,10 +280,14 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_engine.o
-   --   C:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\sudoku_solver.o
-   --   -LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
-   --   -LC:\Users\Nicol\OneDrive\Desktop\SudokuSolverRepo\SudokuSolver\obj\
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\individual_square.o
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\large_square_package.o
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_types.o
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\puzzle.o
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_engine.o
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_solver.o
+   --   -LC:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\
+   --   -LC:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnat

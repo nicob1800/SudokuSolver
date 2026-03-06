@@ -1,0 +1,155 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U puzzle%b		puzzle.adb		e468588b OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W large_square_package%s  large_square_package.adb  large_square_package.ali
+W sudoku_types%s	sudoku_types.ads	sudoku_types.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U puzzle%s		puzzle.ads		b036a7de EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W large_square_package%s  large_square_package.adb  large_square_package.ali
+W sudoku_types%s	sudoku_types.ads	sudoku_types.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D individual_square.ads	20260306172220 980a40c3 individual_square%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D large_square_package.ads  20260306164612 005ede89 large_square_package%s
+D puzzle.ads		20260306171734 5d869780 puzzle%s
+D puzzle.adb		20260306173146 faaa2a38 puzzle%b
+D sudoku_types.ads	20260306171416 edeeeed7 sudoku_types%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [create_board puzzle 8 13 none]
+G c Z s b [set_global_square puzzle 10 14 none]
+G c Z s b [get_global_square puzzle 16 13 none]
+G c Z s b [show_puzzle puzzle 19 14 none]
+G c Z s s [Tblock_gridBIP puzzle 22 4 none]
+G c Z s s [boardDA puzzle 25 9 none]
+G c Z s s [boardDF puzzle 25 9 none]
+G c Z s s [boardIP puzzle 25 9 none]
+G c Z b b [to_block_index puzzle 7 13 none]
+G c Z b b [to_cell_index puzzle 12 13 none]
+G r s instance [create_board puzzle 8 13 none] [instanceIP large_square_package 21 9 none]
+G r c none [create_board puzzle 8 13 none] [create_large_square large_square_package 14 13 none]
+G r c none [set_global_square puzzle 10 14 none] [set_cell_value large_square_package 16 14 none]
+G r c none [get_global_square puzzle 16 13 none] [get_cell_value large_square_package 17 13 none]
+G r c none [show_puzzle puzzle 19 14 none] [get_cell_value large_square_package 17 13 none]
+G r s instance [Tblock_gridBIP puzzle 22 4 none] [instanceIP large_square_package 21 9 none]
+G r s instance [boardIP puzzle 25 9 none] [instanceIP large_square_package 21 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r32
+X 9 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r36
+262U14*New_Line 16|87s13 91s13
+463U14*Put 16|62s16 75s25 77s25 81s25 85s16
+506U14*Put_Line 16|58s7
+X 14 large_square_package.ads
+3K9*Large_Square_Package 25e25 15|2w6 23r42 16|2w6 2r32
+4R9*Instance 24e14 15|23r63
+14V13*Create_Large_Square{4R9} 16|23s15
+16U14*Set_Cell_Value 16|40s42
+16i53 Row{integer} 16|41r10
+16i58 Col{integer} 16|41r27
+16i73 Value{integer} 16|41r44
+17V13*Get_Cell_Value{integer} 16|53s44
+X 15 puzzle.ads
+4K9*Puzzle 22E9 29l5 29e11 16|5b14 96l5 96t11
+6R9*Board 8p13 8r33 10p14 11r22 16p13 17r14 19p14 19r34 25c9 27e14 16|17r33
+. 18r16 30r22 45r14 56r34
+8V13*Create_Board{6R9} 16|17b13 27l8 27t20
+10U14*Set_Global_Square 11=7 12>7 13>7 14>7 16|29b14 42l8 42t25
+11r7 Self{6R9} 16|30b7 40m7 40r7
+12i7 Row{17|3I12} 16|31b7 35r59 37r54
+13i7 Col{17|3I12} 16|32b7 36r59 38r54
+14i7 Value{integer} 16|33b7 41r53
+16V13*Get_Global_Square{integer} 17>7 17>21 17>41 16|44b13 54l8 54t25 72s24
+17r7 Self{6R9} 16|45b7 53r9
+17i21 Row{17|3I12} 16|45b21 47r59 49r54
+17i41 Col{17|3I12} 16|45b41 48r59 50r54
+19U14*Show_Puzzle 19>27 16|56b14 94l8 94t19
+19r27 Self{6R9} 16|56b27 72r43
+22A9 Block_Grid(14|4R9)<integer><integer> 26r16
+26a7*Blocks{22A9} 16|22m20 40m12 53r14
+X 16 puzzle.adb
+7V13 To_Block_Index{17|5I12} 7b13 7>29 10l8 10t22 35s43 36s43 47s43 48s43
+7i29 Global{17|3I12} 9r29
+12V13 To_Cell_Index{integer} 12b13 12>28 15l8 15t21 37s39 38s39 49s39 50s39
+12i28 Global{17|3I12} 14r16
+18r7 Result{15|6R9} 22m13 22r13 26r14
+20i11 Block_Row{17|5I12} 22r28 23r66
+21i14 Block_Col{17|5I12} 22r39 23r45
+35i7 Block_Row{17|5I12} 40r20
+36i7 Block_Col{17|5I12} 40r31
+37i7 Cell_Row{integer} 41r17
+38i7 Cell_Col{integer} 41r34
+47i7 Block_Row{17|5I12} 53r22
+48i7 Block_Col{17|5I12} 53r33
+49i7 Cell_Row{integer} 53r60
+50i7 Cell_Col{integer} 53r70
+59i11 Block_Row{17|5I12} 67r37 90r13
+60i14 Row_Within_Block{integer} 67r59
+61i17 Block_Col{17|5I12} 70r37
+63i20 Col_Within_Block{integer} 70r59 80r25
+65i22 Global_Row{17|3I12} 72r49
+68i22 Global_Col{17|3I12} 72r61
+71i22 Value{integer} 74r25 77r45
+X 17 sudoku_types.ads
+1K9*Sudoku_Types 15|1w6 1r24 16|3w6 3r32 17|19e17
+3I12*Sudoku_Range{integer} 15|12r15 13r15 17r27 17r47 16|7r38 12r37 31r15
+. 32r15 45r27 45r47 65r44 66r24 68r44 69r24
+5I12*Block_Range{integer} 15|23r13 23r26 16|7r59 9r14 20r24 21r27 35r28 36r28
+. 47r28 48r28 59r24 61r30
+

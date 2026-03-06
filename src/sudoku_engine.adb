@@ -16,7 +16,7 @@ package body Sudoku_Engine is
                Put(Img(2 .. Img'Last));
             end;
          else
-            Put("·");
+            Put("_");
          end if;
 
          if I rem 3 = 0 then
@@ -38,7 +38,7 @@ package body Sudoku_Engine is
          if Square(I).Count = 1 then
             Put(Integer'Image(Square(I).Data(1)) & " ");
          else
-            Put(" · ");
+            Put(" _ ");
          end if;
 
          if I rem 3 = 0 then
@@ -56,15 +56,15 @@ package body Sudoku_Engine is
    function Parse_Square(Input : String; Last : Natural) return Specific_Square is
       Temp_Square : Specific_Square;
    begin
-      for I in 1 .. Last loop
-         if Input(I) = '_' then
-            Temp_Square(I) := (Max_Size => 9, Count => 9, Data => (1,2,3,4,5,6,7,8,9));
-         else
+      for I in 1 .. 9 loop
+         if I <= Last and then Input(I) in '1' .. '9' then
             declare
                Val : Integer := Character'Pos(Input(I)) - Character'Pos('0');
             begin
                Temp_Square(I) := (Max_Size => 9, Count => 1, Data => (1 => Val, others => 0));
             end;
+         else
+            Temp_Square(I) := (Max_Size => 9, Count => 9, Data => (1,2,3,4,5,6,7,8,9));
          end if;
       end loop;
 

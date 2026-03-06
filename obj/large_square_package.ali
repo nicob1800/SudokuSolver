@@ -1,0 +1,112 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U large_square_package%b  large_square_package.adb  fa127c90 OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U large_square_package%s  large_square_package.ads  98549e4a EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W individual_square%s	individual_square.adb	individual_square.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D individual_square.ads	20260306172220 980a40c3 individual_square%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D large_square_package.ads  20260306164612 005ede89 large_square_package%s
+D large_square_package.adb  20260306164612 fa4ca219 large_square_package%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [create_large_square large_square_package 14 13 none]
+G c Z s b [set_cell_value large_square_package 16 14 none]
+G c Z s b [get_cell_value large_square_package 17 13 none]
+G c Z s s [Tgrid_arrayBIP large_square_package 20 4 none]
+G c Z s s [instanceDA large_square_package 21 9 none]
+G c Z s s [instanceDF large_square_package 21 9 none]
+G c Z s s [instanceIP large_square_package 21 9 none]
+G c Z s s [integer_arrayIP large_square_package 6 9 none]
+G c Z s s [possibilitiesIP large_square_package 8 9 none]
+G r s instance [create_large_square large_square_package 14 13 none] [instanceIP individual_square 29 9 none]
+G r c none [create_large_square large_square_package 14 13 none] [create_square individual_square 20 13 none]
+G r c none [set_cell_value large_square_package 16 14 none] [set_value individual_square 23 14 none]
+G r c none [get_cell_value large_square_package 17 13 none] [get_value individual_square 24 13 none]
+G r s instance [Tgrid_arrayBIP large_square_package 20 4 none] [instanceIP individual_square 29 9 none]
+G r s instance [instanceIP large_square_package 21 9 none] [instanceIP individual_square 29 9 none]
+X 9 individual_square.ads
+1K9*Individual_Square 36e22 11|1w6 1r29 20r49
+2R9*Instance 35e14 11|20r67
+10R9*Position 13e14 11|22r15
+11i7*Row{integer} 12|6m22 9m50
+12i7*Col{integer} 12|6m32 9m60
+20V13*Create_Square{2R9} 12|9s35
+23U14*Set_Value 12|17s28
+24V13*Get_Value{integer} 12|22s35
+X 11 large_square_package.ads
+3K9*Large_Square_Package 20E9 25l5 25e25 12|1b14 24l5 24t25
+4R9*Instance 14p13 14r66 16p14 16r43 17p13 17r35 21c9 24e14 12|2r66 3r16
+. 15r43 20r35
+6A9*Integer_Array(integer)<integer> 10r15
+8R9*Possibilities 8d23 11e14
+8i23*Max_Size{positive} 10r34
+9i7*Count{natural}
+10a7*Data{6A9}
+14V13*Create_Large_Square{4R9} 14>33 14>46 12|2b13 13l8 13t27
+14i33 x{integer} 12|2b33 4r41 6r39
+14i46 y{integer} 12|2b46 4r28 6r29
+16U14*Set_Cell_Value 16=29 16>53 16>58 16>73 12|15b14 18l8 18t22
+16r29 Self{4R9} 12|15b29 17m7 17r7
+16i53 Row{integer} 12|15b53 17r18
+16i58 Col{integer} 12|15b58 17r23
+16i73 Value{integer} 12|15b73 17r38
+17V13*Get_Cell_Value{integer} 17>28 17>45 17>50 12|20b13 23l8 23t22
+17r28 Self{4R9} 12|20b28 22r14
+17i45 Row{integer} 12|20b45 22r25
+17i50 Col{integer} 12|20b50 22r30
+20A9 Grid_Array(9|2R9)<integer><integer> 23r15
+22r7*Pos{9|10R9} 12|6m14
+23a7*Cells{20A9} 12|9m20 17m12 22r19
+X 12 large_square_package.adb
+3r7 Result{11|4R9} 6m7 9m13 9r13 12r14
+4i7 ID{integer} 9r71
+7i11 R{integer} 9r26 9r57
+8i14 C{integer} 9r29 9r67
+

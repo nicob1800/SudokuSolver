@@ -1,0 +1,105 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U individual_square%b	individual_square.adb	5e493dbb OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U individual_square%s	individual_square.ads	980a40c3 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D individual_square.ads	20260306172220 980a40c3 individual_square%s
+D individual_square.adb	20260306171940 c6437d78 individual_square%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [create_square individual_square 15 13 none]
+G c Z s b [create_square individual_square 20 13 none]
+G c Z s b [set_value individual_square 23 14 none]
+G c Z s b [get_value individual_square 24 13 none]
+G c Z s b [modify_possibilities individual_square 25 14 none]
+G c Z s s [integer_arrayIP individual_square 3 9 none]
+G c Z s s [possibilitiesIP individual_square 5 9 none]
+G c Z s s [instanceDA individual_square 29 9 none]
+G c Z s s [instanceDF individual_square 29 9 none]
+G c Z s s [instanceIP individual_square 29 9 none]
+G c Z s s [positionIP individual_square 10 9 none]
+X 9 individual_square.ads
+1K9*Individual_Square 29E9 36l5 36e22 10|1b14 41l5 41t22
+2R9*Instance 15p13 19r40 20p13 21r68 23p14 23r39 24p13 24r31 25p14 26r21
+. 29c9 35e14 10|7r40 18r68 26r39 31r31 37r21
+3A9*Integer_Array(integer)<integer> 7r15
+5R9*Possibilities 5d24 8e14 19r18 26r45 34r18 10|7r18 20r34 37r45
+5i24*Max_Size{positive} 7r35
+6i7*Count{natural} 10|21m25
+7a7*Data{3A9} 10|21m37
+10R9*Position 13e14 16r18 21r14 10|4r18 18r14
+11i7*Row{integer} 10|11r27
+12i7*Col{integer} 10|12r27
+15V13*Create_Square{2R9} 16>7 17>7 18>7 19>7 10|3b13 15l8 15t21 23s14
+16r7 Spot{10R9} 10|4b7 11r22 12r22
+17i7 Block_ID{integer} 10|5b7 13r22
+18i7 Value{integer} 10|6b7 10r22
+19r7 Options{5R9} 10|7b7 14r22
+20V13*Create_Square{2R9} 21>7 21>24 21>44 10|17b13 24l8 24t21
+21r7 Spot{10R9} 10|18b7 23r29
+21i24 Block_ID{integer} 10|18b24 23r35
+21i44 Value{integer} 10|18b44 23r45
+23U14*Set_Value 23=25 23>49 10|26b14 29l8 29t17
+23r25 Self{2R9} 10|26b25 28m7
+23i49 Value{integer} 10|26b49 28r21
+24V13*Get_Value{integer} 24>24 10|31b13 34l8 34t17
+24r24 Self{2R9} 10|31b24 33r14
+25U14*Modify_Possibilities 26=7 26>31 10|36b14 40l8 40t28
+26r7 Self{2R9} 10|37b7 39m7
+26r31 New_Options{5R9} 10|37b31 39r23
+30i7*Row{integer} 10|11m10
+31i7*Col{integer} 10|12m10
+32i7*Block_ID{integer} 10|13m10
+33i7*Value{integer} 10|10m10 28m12 33r19
+34r7*Options{5R9} 10|14m10 39m12
+X 10 individual_square.adb
+20r7 Default_Options{9|5R9} 23r52
+

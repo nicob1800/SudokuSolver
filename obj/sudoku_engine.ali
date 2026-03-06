@@ -11,7 +11,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 
-U sudoku_engine%b	sudoku_engine.adb	20bc1796 NE OO PK
+U sudoku_engine%b	sudoku_engine.adb	ee8c48ce NE OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -19,8 +19,9 @@ W sudoku_engine%s	sudoku_engine.adb	sudoku_engine.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U sudoku_engine%s	sudoku_engine.ads	61b05f96 EE NE OO PK
+U sudoku_engine%s	sudoku_engine.ads	1361ef93 EE NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W sudoku_types%s	sudoku_types.ads	sudoku_types.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
@@ -34,8 +35,9 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D sudoku_engine.ads	20260303204154 61b05f96 sudoku_engine%s
-D sudoku_engine.adb	20260303204154 8e48c2fb sudoku_engine%b
+D sudoku_engine.ads	20260306174044 fe8f0144 sudoku_engine%s
+D sudoku_engine.adb	20260306173532 40789da3 sudoku_engine%b
+D sudoku_types.ads	20260306171416 edeeeed7 sudoku_types%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -56,49 +58,40 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [show_square sudoku_engine 11 14 none]
-G c Z s b [show_row sudoku_engine 12 14 none]
-G c Z s b [show_puzzle sudoku_engine 13 14 none]
-G c Z s b [parse_square sudoku_engine 14 13 none]
-G c Z s s [integer_arrayIP sudoku_engine 3 9 none]
-G c Z s s [possibilitiesIP sudoku_engine 4 9 none]
-G c Z s s [Tspecific_squareBIP sudoku_engine 8 4 none]
-G c Z s s [Tpuzzle_arrayBIP sudoku_engine 9 4 none]
+G c Z s b [show_square sudoku_engine 6 14 none]
+G c Z s b [parse_square sudoku_engine 8 13 none]
+G c Z s s [Tspecific_squareBIP sudoku_engine 4 4 none]
+G c Z b b [show_row sudoku_engine 6 14 none]
+G r s possibilities [parse_square sudoku_engine 8 13 none] [possibilitiesIP sudoku_types 9 9 none]
+G r s possibilities [Tspecific_squareBIP sudoku_engine 4 4 none] [possibilitiesIP sudoku_types 9 9 none]
 X 1 ada.ads
 16K9*Ada 20e8 14|1r6 1r23
 X 9 a-textio.ads
 58K13*Text_IO 725e16 14|1w10 1r27
-262U14*New_Line 14|46s13 62s13 64s10
+262U14*New_Line 14|46s13
 463U14*Put 14|8s6 16s16 19s13 23s13 25s13 35s13 39s13 41s13 45s13 48s13
-506U14*Put_Line 14|56s7
 X 13 sudoku_engine.ads
-1K9*Sudoku_Engine 18l5 18e18 14|2w6 2r25 4b14 88l5 88t18
-3A9*Integer_Array(integer)<integer> 6r31
-4R9*Possibilities 4d23 7e33 8r43
-4i23*Max_Size{positive} 6r50
-5i23*Count{natural} 14|10r23 38r23 74m47 79m50
-6a23*Data{3A9} 14|14r56 39r41 74m59 79m62
-8A9*Specific_Square(4R9)<integer> 9r40 11r35 12r32 14r65 14|6r32 30r35 69r65
-. 70r21
-9A9*Puzzle_Array(8A9)<integer> 13r35 14|54r35
-11U14*Show_Square 11>26 14|30b14 52l8 52t19
-11a26 Square{8A9} 14|30b26 38r13 39r31
-12U14*Show_Row 12>23 12>49 14|6b14 28l8 28t16 60s16
-12a23 Square{8A9} 14|6b23 10r13 14r46
-12i49 Row_Number{integer} 14|6b49 9r18 9r36
-13U14*Show_Puzzle 13>26 14|54b14 66l8 66t19
-13a26 Puzzle{9A9} 14|54b26 59r27
-14V13*Parse_Square{8A9} 14>26 14>42 14|69b13 85l8 85t20
-14a26 Input{string} 14|69b26 73r13 77r47
-14i42 Last{natural} 14|69b42 72r21
+3K9*Sudoku_Engine 10l5 10e18 14|2w6 2r25 4b14 75l5 75t18
+4A9*Specific_Square(15|9R9)<integer> 6r36 9r46 14|6r32 30r35 56r65 57r21
+6U14*Show_Square 6>27 14|30b14 52l8 52t19
+6a27 Square{4A9} 14|30b26 38r13 39r31
+8V13*Parse_Square{4A9} 9>7 9>23 14|56b13 72l8 72t20
+9a7 Input{string} 14|56b26 60r32 62r47
+9i23 Last{natural} 14|56b42 60r18
 X 14 sudoku_engine.adb
+6U14 Show_Row 6b14 6>23 6>49 28l8 28t16
+6a23 Square{13|4A9} 10r13 14r46
+6i49 Row_Number{integer} 9r18 9r36
 9i11 I{integer} 10r20 14r53 22r13
 14a16 Img{string} 16r20 16r29
 33i11 I{integer} 34r13 38r20 39r38 44r13
-57i11 I{integer} 59r36 59r45
-58i14 J{integer} 60r33
-59a17 Square=59:17{13|8A9} 60r25
-70a7 Temp_Square{13|8A9} 74m13 79m16 84r14
-72i11 I{integer} 73r19 74r25 77r53 79r28
-77i16 Val{integer} 79r76
+57a7 Temp_Square{13|4A9} 64m16 67m13 71r14
+59i11 I{integer} 60r13 60r38 62r53 64r28 67r25
+62i16 Val{integer} 64r76
+X 15 sudoku_types.ads
+1K9*Sudoku_Types 13|1w6 1r24 15|19e17
+7A9*Integer_Array(integer)<integer>
+9R9*Possibilities 13|4r46 15|12e14
+10i7*Count{natural} 14|10r23 38r23 64m50 67m47
+11a7*Data{7A9} 14|14r56 39r41 64m62 67m59
 

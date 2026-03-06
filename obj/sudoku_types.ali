@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U sudoku_types%s	sudoku_types.ads	edeeeed7 NE OO PK
+
+D sudoku_types.ads	20260306171416 edeeeed7 sudoku_types%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s s [integer_arrayIP sudoku_types 7 9 none]
+G c Z s s [possibilitiesIP sudoku_types 9 9 none]
+G c Z s s [positionIP sudoku_types 14 9 none]
+X 1 sudoku_types.ads
+1K9*Sudoku_Types 19l5 19e17
+3I12*Sudoku_Range{integer}
+5I12*Block_Range{integer} 15r13 16r13
+7A9*Integer_Array(integer)<integer> 11r15
+9R9*Possibilities 9d24 12e14
+9i24*Max_Size{positive} 11r35
+10i7*Count{natural}
+11a7*Data{7A9}
+14R9*Position 17e14
+15i7*Row{5I12}
+16i7*Col{5I12}
+
