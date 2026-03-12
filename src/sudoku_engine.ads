@@ -1,3 +1,4 @@
+with Individual_Square;
 with Sudoku_Types; use Sudoku_Types;
 
 package Sudoku_Engine is
@@ -7,4 +8,13 @@ package Sudoku_Engine is
 
    function Parse_Square
      (Input : String; Last : Natural) return Specific_Square;
+
+   procedure Assign_Answer
+     (Square : in out Individual_Square; Answer : Integer);
+
+   procedure Assign_Possibilities
+     (Square : Individual_Square; Choices : Possibilities);
+
+   procedure Solve (Problem : in out Puzzle);
+
 end Sudoku_Engine;

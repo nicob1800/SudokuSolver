@@ -39,7 +39,7 @@ D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D large_square_package.ads  20260306164612 005ede89 large_square_package%s
 D puzzle.ads		20260306171734 5d869780 puzzle%s
 D sudoku_engine.ads	20260306174044 fe8f0144 sudoku_engine%s
-D sudoku_solver.adb	20260306175154 a2c4b0ef sudoku_solver%b
+D sudoku_solver.adb	20260311054258 a2c4b0ef sudoku_solver%b
 D sudoku_types.ads	20260306171416 edeeeed7 sudoku_types%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s

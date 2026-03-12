@@ -1,0 +1,2 @@
+C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\src\sudoku_engine.adb:76:01: error: missing "begin" for procedure "Assign_Possibilities" at line 73
+C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\src\sudoku_engine.adb:76:01: error: "end Assign_Possibilities;" expected
