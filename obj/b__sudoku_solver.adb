@@ -31,7 +31,7 @@ package body ada_main is
    E117 : Short_Integer; pragma Import (Ada, E117, "ada__finalization_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__file_io_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__text_io_E");
-   E126 : Short_Integer; pragma Import (Ada, E126, "individual_square_E");
+   E127 : Short_Integer; pragma Import (Ada, E127, "individual_square_E");
    E124 : Short_Integer; pragma Import (Ada, E124, "large_square_package_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "puzzle_E");
    E136 : Short_Integer; pragma Import (Ada, E136, "sudoku_engine_E");
@@ -59,7 +59,7 @@ package body ada_main is
       begin
          F2;
       end;
-      E126 := E126 - 1;
+      E127 := E127 - 1;
       declare
          procedure F3;
          pragma Import (Ada, F3, "individual_square__finalize_spec");
@@ -235,7 +235,7 @@ package body ada_main is
       E106 := E106 + 1;
       Individual_Square'Elab_Spec;
       Individual_Square'Elab_Body;
-      E126 := E126 + 1;
+      E127 := E127 + 1;
       Large_Square_Package'Elab_Spec;
       Large_Square_Package'Elab_Body;
       E124 := E124 + 1;
@@ -280,9 +280,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
+   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_types.o
    --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\individual_square.o
    --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\large_square_package.o
-   --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_types.o
    --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\puzzle.o
    --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_engine.o
    --   C:\Users\Nicol\OneDrive\Desktop\VSCodeSudoku\SudokuSolver\obj\sudoku_solver.o

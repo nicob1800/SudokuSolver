@@ -1,11 +1,8 @@
+with Sudoku_Types; use Sudoku_Types;
+
 package Individual_Square is
    type Instance is tagged private;
    type Integer_Array is array (Positive range <>) of Integer;
-
-   type Possibilities (Max_Size : Positive) is record
-      Count : Natural := 0;
-      Data  : Integer_Array (1 .. Max_Size);
-   end record;
 
    type Position is record
       Row : Integer range 1 .. 3;

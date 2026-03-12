@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#42d71d91#;
+   u00001 : constant Version_32 := 16#a54b8a37#;
    pragma Export (C, u00001, "sudoku_solverB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -280,37 +280,37 @@ package ada_main is
    pragma Export (C, u00119, "system__finalization_rootS");
    u00120 : constant Version_32 := 16#d265cbbc#;
    pragma Export (C, u00120, "system__file_control_blockS");
-   u00121 : constant Version_32 := 16#e468588b#;
+   u00121 : constant Version_32 := 16#52596be0#;
    pragma Export (C, u00121, "puzzleB");
-   u00122 : constant Version_32 := 16#b036a7de#;
+   u00122 : constant Version_32 := 16#060794b5#;
    pragma Export (C, u00122, "puzzleS");
-   u00123 : constant Version_32 := 16#fa127c90#;
+   u00123 : constant Version_32 := 16#6c0efdd9#;
    pragma Export (C, u00123, "large_square_packageB");
-   u00124 : constant Version_32 := 16#98549e4a#;
+   u00124 : constant Version_32 := 16#8a3156ae#;
    pragma Export (C, u00124, "large_square_packageS");
-   u00125 : constant Version_32 := 16#5e493dbb#;
-   pragma Export (C, u00125, "individual_squareB");
-   u00126 : constant Version_32 := 16#980a40c3#;
-   pragma Export (C, u00126, "individual_squareS");
-   u00127 : constant Version_32 := 16#c9a3fcbc#;
-   pragma Export (C, u00127, "system__stream_attributesB");
-   u00128 : constant Version_32 := 16#414158da#;
-   pragma Export (C, u00128, "system__stream_attributesS");
-   u00129 : constant Version_32 := 16#3e25f63c#;
-   pragma Export (C, u00129, "system__stream_attributes__xdrB");
-   u00130 : constant Version_32 := 16#ce9a2a0c#;
-   pragma Export (C, u00130, "system__stream_attributes__xdrS");
-   u00131 : constant Version_32 := 16#ecc88e78#;
-   pragma Export (C, u00131, "system__fat_fltS");
-   u00132 : constant Version_32 := 16#cafa8775#;
-   pragma Export (C, u00132, "system__fat_lfltS");
-   u00133 : constant Version_32 := 16#b02a299f#;
-   pragma Export (C, u00133, "system__fat_llfS");
-   u00134 : constant Version_32 := 16#edeeeed7#;
-   pragma Export (C, u00134, "sudoku_typesS");
-   u00135 : constant Version_32 := 16#ee8c48ce#;
+   u00125 : constant Version_32 := 16#edeeeed7#;
+   pragma Export (C, u00125, "sudoku_typesS");
+   u00126 : constant Version_32 := 16#3439ec52#;
+   pragma Export (C, u00126, "individual_squareB");
+   u00127 : constant Version_32 := 16#3c5ebb4c#;
+   pragma Export (C, u00127, "individual_squareS");
+   u00128 : constant Version_32 := 16#c9a3fcbc#;
+   pragma Export (C, u00128, "system__stream_attributesB");
+   u00129 : constant Version_32 := 16#414158da#;
+   pragma Export (C, u00129, "system__stream_attributesS");
+   u00130 : constant Version_32 := 16#3e25f63c#;
+   pragma Export (C, u00130, "system__stream_attributes__xdrB");
+   u00131 : constant Version_32 := 16#ce9a2a0c#;
+   pragma Export (C, u00131, "system__stream_attributes__xdrS");
+   u00132 : constant Version_32 := 16#ecc88e78#;
+   pragma Export (C, u00132, "system__fat_fltS");
+   u00133 : constant Version_32 := 16#cafa8775#;
+   pragma Export (C, u00133, "system__fat_lfltS");
+   u00134 : constant Version_32 := 16#b02a299f#;
+   pragma Export (C, u00134, "system__fat_llfS");
+   u00135 : constant Version_32 := 16#9d6b3a79#;
    pragma Export (C, u00135, "sudoku_engineB");
-   u00136 : constant Version_32 := 16#1361ef93#;
+   u00136 : constant Version_32 := 16#e5bd85bf#;
    pragma Export (C, u00136, "sudoku_engineS");
    u00137 : constant Version_32 := 16#fd83e873#;
    pragma Export (C, u00137, "system__concat_2B");
@@ -452,11 +452,11 @@ package ada_main is
    --  system.stream_attributes%b
    --  ada.text_io%s
    --  ada.text_io%b
+   --  sudoku_types%s
    --  individual_square%s
    --  individual_square%b
    --  large_square_package%s
    --  large_square_package%b
-   --  sudoku_types%s
    --  puzzle%s
    --  puzzle%b
    --  sudoku_engine%s

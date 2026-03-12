@@ -1,3 +1,5 @@
+with Sudoku_Types; use Sudoku_Types;
+
 package body Individual_Square is
 
    function Create_Square

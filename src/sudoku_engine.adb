@@ -2,7 +2,7 @@ with Ada.Text_IO;          use Ada.Text_IO;
 with Puzzle;               use Puzzle;
 with Individual_Square;    use Individual_Square;
 with Large_Square_Package; use Large_Square_Package;
-with Sudoku_Engine;        use Sudoku_Engine;
+with Sudoku_Types;         use Sudoku_Types;
 
 package body Sudoku_Engine is
 
@@ -74,26 +74,99 @@ package body Sudoku_Engine is
          end if;
       end loop;
 
-      return Temp_Square; -- Send the finished square back to the main program
+      return Temp_Square;
    end Parse_Square;
 
    procedure Assign_Possibilities
-     (Square : in out Individual_Square; Choices : Possibilities) is
+     (Square : in out Individual_Square.Instance; Choices : Possibilities) is
    begin
-      Square.Possibilities := Choices;
+      Square.Modify_Possibilities (Choices);
    end Assign_Possibilities;
 
    procedure Assign_Answer
-     (Square : in out Individual_Square; Answer : Integer) is
+     (Square : in out Individual_Square.Instance; Answer : Integer) is
    begin
-      if Square.Possibilities.Count = 1 then
-         Square.Value := Answer;
-      end if;
+      Square.Set_Value (Answer);
    end Assign_Answer;
 
-   procedure Solve (Problem : in out Puzzle) is
+   procedure Solve (Problem : in out Puzzle.Board) is
+      Changed : Boolean;
    begin
+      loop
+         Changed := False;
 
+         for Row in Sudoku_Range loop
+            for Col in Sudoku_Range loop
+               if Problem.Get_Global_Square (Row, Col) = 0 then
+                  declare
+                     Used     : array (1 .. 9) of Boolean := (others => False);
+                     Count    : Natural := 0;
+                     Last_Val : Integer := 0;
+
+                     Block_Row_Start : constant Integer :=
+                       ((Integer (Row) - 1) / 3) * 3 + 1;
+                     Block_Col_Start : constant Integer :=
+                       ((Integer (Col) - 1) / 3) * 3 + 1;
+                  begin
+                     --  Eliminate values seen in the same row
+                     for C in Sudoku_Range loop
+                        declare
+                           V : constant Integer :=
+                             Problem.Get_Global_Square (Row, C);
+                        begin
+                           if V /= 0 then
+                              Used (V) := True;
+                           end if;
+                        end;
+                     end loop;
+
+                     --  Eliminate values seen in the same column
+                     for R in Sudoku_Range loop
+                        declare
+                           V : constant Integer :=
+                             Problem.Get_Global_Square (R, Col);
+                        begin
+                           if V /= 0 then
+                              Used (V) := True;
+                           end if;
+                        end;
+                     end loop;
+
+                     --  Eliminate values seen in the same 3x3 block
+                     for R in Block_Row_Start .. Block_Row_Start + 2 loop
+                        for C in Block_Col_Start .. Block_Col_Start + 2 loop
+                           declare
+                              V : constant Integer :=
+                                Problem.Get_Global_Square
+                                  (Sudoku_Range (R), Sudoku_Range (C));
+                           begin
+                              if V /= 0 then
+                                 Used (V) := True;
+                              end if;
+                           end;
+                        end loop;
+                     end loop;
+
+                     --  Count remaining candidates
+                     for V in 1 .. 9 loop
+                        if not Used (V) then
+                           Count := Count + 1;
+                           Last_Val := V;
+                        end if;
+                     end loop;
+
+                     --  Exactly one candidate: fill it in
+                     if Count = 1 then
+                        Problem.Set_Global_Square (Row, Col, Last_Val);
+                        Changed := True;
+                     end if;
+                  end;
+               end if;
+            end loop;
+         end loop;
+
+         exit when not Changed;
+      end loop;
    end Solve;
 
 end Sudoku_Engine;

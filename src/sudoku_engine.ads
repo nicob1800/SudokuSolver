@@ -1,4 +1,5 @@
 with Individual_Square;
+with Puzzle;
 with Sudoku_Types; use Sudoku_Types;
 
 package Sudoku_Engine is
@@ -10,11 +11,11 @@ package Sudoku_Engine is
      (Input : String; Last : Natural) return Specific_Square;
 
    procedure Assign_Answer
-     (Square : in out Individual_Square; Answer : Integer);
+     (Square : in out Individual_Square.Instance; Answer : Integer);
 
    procedure Assign_Possibilities
-     (Square : Individual_Square; Choices : Possibilities);
+     (Square : in out Individual_Square.Instance; Choices : Possibilities);
 
-   procedure Solve (Problem : in out Puzzle);
+   procedure Solve (Problem : in out Puzzle.Board);
 
 end Sudoku_Engine;

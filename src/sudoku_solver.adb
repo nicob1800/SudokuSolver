@@ -83,5 +83,7 @@ begin
 
    -- Show the final completed 9x9 Board
    Puzzle.Show_Puzzle (My_Board);
+   Solve (My_Board);
+   Puzzle.Show_Puzzle (My_Board);
 
 end Sudoku_Solver;

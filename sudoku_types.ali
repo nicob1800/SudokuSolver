@@ -1,11 +1,7 @@
 V "GNAT Lib v2021"
-A -gnatA
-A -mtune=generic
-A -march=x86-64
 P ZX
 
 RN
-RV NO_IMPLEMENTATION_PRAGMAS
 
 U sudoku_types%s	sudoku_types.ads	edeeeed7 NE OO PK
 
