@@ -76,14 +76,18 @@ begin
                end;
             end loop;
 
-            Sudoku_Engine.Show_Square (Temp_Square);
+            null;
          end;
       end if;
    end loop;
 
    -- Show the final completed 9x9 Board
+   Put_Line ("Initial board:");
    Puzzle.Show_Puzzle (My_Board);
+
    Solve (My_Board);
+
+   Put_Line ("Solved board :");
    Puzzle.Show_Puzzle (My_Board);
 
 end Sudoku_Solver;

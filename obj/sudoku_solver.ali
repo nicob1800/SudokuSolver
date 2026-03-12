@@ -11,7 +11,7 @@ RV NO_SECONDARY_STACK
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U sudoku_solver%b	sudoku_solver.adb	a54b8a37 NE OO SU
+U sudoku_solver%b	sudoku_solver.adb	416272f1 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
@@ -39,7 +39,7 @@ D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D large_square_package.ads  20260312001602 b66fede2 large_square_package%s
 D puzzle.ads		20260306171734 5d869780 puzzle%s
 D sudoku_engine.ads	20260312001804 8465a973 sudoku_engine%s
-D sudoku_solver.adb	20260312003706 3fb28f7e sudoku_solver%b
+D sudoku_solver.adb	20260312010048 db9b77b8 sudoku_solver%b
 D sudoku_types.ads	20260311055706 edeeeed7 sudoku_types%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
@@ -66,7 +66,6 @@ G c Z b b [sudoku_solver standard 6 11 none]
 G r c none [sudoku_solver standard 6 11 none] [create_board puzzle 8 13 none]
 G r c none [sudoku_solver standard 6 11 none] [parse_square sudoku_engine 10 13 none]
 G r c none [sudoku_solver standard 6 11 none] [set_global_square puzzle 10 14 none]
-G r c none [sudoku_solver standard 6 11 none] [show_square sudoku_engine 8 14 none]
 G r c none [sudoku_solver standard 6 11 none] [show_puzzle puzzle 19 14 none]
 G r c none [sudoku_solver standard 6 11 none] [solve sudoku_engine 19 14 none]
 X 1 ada.ads
@@ -75,33 +74,32 @@ X 9 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r29
 262U14*New_Line 17|46s10
 479U14*Get_Line 17|40s7
-506U14*Put_Line 17|28s4 29s4 30s4 31s4 32s4 33s4 39s7 44s10
+506U14*Put_Line 17|28s4 29s4 30s4 31s4 32s4 33s4 39s7 44s10 85s4 90s4
 X 15 puzzle.ads
-4K9*Puzzle 29e11 17|4w6 4r25 10r15 10r31 85r4 87r4
+4K9*Puzzle 29e11 17|4w6 4r25 10r15 10r31 86r4 91r4
 6R9*Board 27e14 17|10r22
 8V13*Create_Board{6R9} 17|10s38
 10U14*Set_Global_Square 17|74s28
 12i7 Row{18|3I12} 17|75r22
 13i7 Col{18|3I12} 17|75r39
 14i7 Value{integer} 17|75r56
-19U14*Show_Puzzle 17|85s11 87s11
+19U14*Show_Puzzle 17|86s11 91s11
 X 16 sudoku_engine.ads
-5K9*Sudoku_Engine 21e18 17|2w6 2r25 50r27 51r15 79r13
+5K9*Sudoku_Engine 21e18 17|2w6 2r25 50r27 51r15
 6A9*Specific_Square(18|9R9)<integer> 17|50r41
-8U14*Show_Square 17|79s27
 10V13*Parse_Square{6A9} 17|51s29
-19U14*Solve 17|86s4
+19U14*Solve 17|88s4
 X 17 sudoku_solver.adb
-6U11*Sudoku_Solver 6b11 89l5 89t18
+6U11*Sudoku_Solver 6b11 93l5 93t18
 7a4 Entries{string} 40m17 41r35 43r37 51r43
 8i4 Last{natural} 40m26 41r17 43r46 51r52
 9i4 Squares{integer} 36m7 36r18 37r17 39r44 45m10 45r21 54r49 55r49
-10r4 My_Board{15|6R9} 74m19 74r19 85r24 86m11 86r11 87r24
+10r4 My_Board{15|6R9} 74m19 74r19 86r24 88m11 88r11 91r24
 12V13 Is_Valid_Square_Input{boolean} 12b13 13>7 13>23 26l8 26t29 43s14
 13a7 Input{string} 20r18 20r50
 13i23 Input_Last{natural} 15r10
 19i11 I{integer} 20r25 20r57
-50a13 Temp_Square{16|6A9} 70r22 71r29 79r40
+50a13 Temp_Square{16|6A9} 70r22 71r29
 54i13 Block_Row_Start{18|3I12} 64r46
 55i13 Block_Col_Start{18|3I12} 65r46
 57i17 I{integer} 60r44 61r44 70r35 71r42

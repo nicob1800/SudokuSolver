@@ -55,40 +55,28 @@ package body Puzzle is
 
    procedure Show_Puzzle (Self : Board) is
    begin
-      Put_Line ("______________________");
-      for Block_Row in Block_Range loop
-         for Row_Within_Block in 1 .. 3 loop
-            for Block_Col in Block_Range loop
-               Put ("[");
-               for Col_Within_Block in 1 .. 3 loop
-                  declare
-                     Global_Row : constant Sudoku_Range :=
-                       Sudoku_Range
-                         ((Integer (Block_Row) - 1) * 3 + Row_Within_Block);
-                     Global_Col : constant Sudoku_Range :=
-                       Sudoku_Range
-                         ((Integer (Block_Col) - 1) * 3 + Col_Within_Block);
-                     Value      : constant Integer :=
-                       Get_Global_Square (Self, Global_Row, Global_Col);
-                  begin
-                     if Value = 0 then
-                        Put ("_");
-                     else
-                        Put (Integer'Image (Value) (2 .. 2));
-                     end if;
+      Put_Line ("+-------+-------+-------+");
+      for Row in Sudoku_Range loop
+         Put ("| ");
+         for Col in Sudoku_Range loop
+            declare
+               Value : constant Integer := Get_Global_Square (Self, Row, Col);
+            begin
+               if Value = 0 then
+                  Put (". ");
+               else
+                  Put (Integer'Image (Value) (2 .. 2) & " ");
+               end if;
 
-                     if Col_Within_Block < 3 then
-                        Put ("|");
-                     end if;
-                  end;
-               end loop;
-               Put ("] ");
-            end loop;
-            New_Line;
+               if Col rem 3 = 0 then
+                  Put ("| ");
+               end if;
+            end;
          end loop;
+         New_Line;
 
-         if Block_Row < 3 then
-            New_Line;
+         if Row rem 3 = 0 then
+            Put_Line ("+-------+-------+-------+");
          end if;
       end loop;
    end Show_Puzzle;

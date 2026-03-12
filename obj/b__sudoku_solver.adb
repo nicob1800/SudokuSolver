@@ -34,7 +34,7 @@ package body ada_main is
    E127 : Short_Integer; pragma Import (Ada, E127, "individual_square_E");
    E124 : Short_Integer; pragma Import (Ada, E124, "large_square_package_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "puzzle_E");
-   E136 : Short_Integer; pragma Import (Ada, E136, "sudoku_engine_E");
+   E138 : Short_Integer; pragma Import (Ada, E138, "sudoku_engine_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -242,7 +242,7 @@ package body ada_main is
       Puzzle'Elab_Spec;
       Puzzle'Elab_Body;
       E122 := E122 + 1;
-      E136 := E136 + 1;
+      E138 := E138 + 1;
    end adainit;
 
    procedure Ada_Main_Program;

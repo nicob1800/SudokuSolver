@@ -18,12 +18,12 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__sudoku_solver.adb	9b64eef1 OO PK IL
+U ada_main%b		b__sudoku_solver.adb	62e0f0f4 OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__sudoku_solver.ads	9c0140fc EE NE OO PK IL
+U ada_main%s		b__sudoku_solver.ads	d1d053b0 EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D b__sudoku_solver.ads	20260312004358 6f936c68 ada_main%s
-D b__sudoku_solver.adb	20260312004358 6098b28d ada_main%b
+D b__sudoku_solver.ads	20260312010054 22427f24 ada_main%s
+D b__sudoku_solver.adb	20260312010054 d4cdbfc4 ada_main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
@@ -246,7 +246,7 @@ X 5 b__sudoku_solver.adb
 34i4 E127{short_integer} 34m46 34r46 62m7 62r15 238m7 238r15
 35i4 E124{short_integer} 35m46 35r46 55m7 55r15 241m7 241r15
 36i4 E122{short_integer} 36m46 36r46 48m7 48r15 244m7 244r15
-37i4 E136{short_integer} 37m46 37r46 245m7 245r15
+37i4 E138{short_integer} 37m46 37r46 245m7 245r15
 39a4 Sec_Default_Sized_Stacks(8|45R9) 178m32 178r32
 41a4 Local_Priority_Specific_Dispatching{string} 166r9
 42a4 Local_Interrupt_States{string} 169r27

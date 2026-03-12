@@ -11,16 +11,18 @@ RV NO_IMPLICIT_CONDITIONALS
 RV NO_SECONDARY_STACK
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 
-U puzzle%b		puzzle.adb		52596be0 OO PK
+U puzzle%b		puzzle.adb		ed510e9b OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W large_square_package%s  large_square_package.adb  large_square_package.ali
 W sudoku_types%s	sudoku_types.ads	sudoku_types.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
@@ -50,9 +52,10 @@ D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D large_square_package.ads  20260312001602 b66fede2 large_square_package%s
 D puzzle.ads		20260306171734 5d869780 puzzle%s
-D puzzle.adb		20260306173146 faaa2a38 puzzle%b
+D puzzle.adb		20260312010050 45a24f43 puzzle%b
 D sudoku_types.ads	20260311055706 edeeeed7 sudoku_types%s
 D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
@@ -93,9 +96,9 @@ X 1 ada.ads
 16K9*Ada 20e8 16|1r6 1r32
 X 9 a-textio.ads
 58K13*Text_IO 725e16 16|1w10 1r36
-262U14*New_Line 16|87s13 91s13
-463U14*Put 16|62s16 75s25 77s25 81s25 85s16
-506U14*Put_Line 16|58s7
+262U14*New_Line 16|76s10
+463U14*Put 16|60s10 66s19 68s19 72s19
+506U14*Put_Line 16|58s7 79s13
 X 14 large_square_package.ads
 4K9*Large_Square_Package 22e25 15|2w6 23r42 16|2w6 2r32
 5R9*Instance 21e14 15|23r63
@@ -106,7 +109,7 @@ X 14 large_square_package.ads
 12i51 Value{integer} 16|41r44
 13V13*Get_Cell_Value{integer} 16|53s44
 X 15 puzzle.ads
-4K9*Puzzle 22E9 29l5 29e11 16|5b14 96l5 96t11
+4K9*Puzzle 22E9 29l5 29e11 16|5b14 84l5 84t11
 6R9*Board 8p13 8r33 10p14 11r22 16p13 17r14 19p14 19r34 25c9 27e14 16|17r33
 . 18r16 30r22 45r14 56r34
 8V13*Create_Board{6R9} 16|17b13 27l8 27t20
@@ -115,12 +118,12 @@ X 15 puzzle.ads
 12i7 Row{17|3I12} 16|31b7 35r59 37r54
 13i7 Col{17|3I12} 16|32b7 36r59 38r54
 14i7 Value{integer} 16|33b7 41r53
-16V13*Get_Global_Square{integer} 17>7 17>21 17>41 16|44b13 54l8 54t25 72s24
+16V13*Get_Global_Square{integer} 17>7 17>21 17>41 16|44b13 54l8 54t25 63s44
 17r7 Self{6R9} 16|45b7 53r9
 17i21 Row{17|3I12} 16|45b21 47r59 49r54
 17i41 Col{17|3I12} 16|45b41 48r59 50r54
-19U14*Show_Puzzle 19>27 16|56b14 94l8 94t19
-19r27 Self{6R9} 16|56b27 72r43
+19U14*Show_Puzzle 19>27 16|56b14 82l8 82t19
+19r27 Self{6R9} 16|56b27 63r63
 22A9 Block_Grid(14|5R9)<integer><integer> 26r16
 26a7*Blocks{22A9} 16|22m20 40m12 53r14
 X 16 puzzle.adb
@@ -139,17 +142,13 @@ X 16 puzzle.adb
 48i7 Block_Col{17|5I12} 53r33
 49i7 Cell_Row{integer} 53r60
 50i7 Cell_Col{integer} 53r70
-59i11 Block_Row{17|5I12} 67r37 90r13
-60i14 Row_Within_Block{integer} 67r59
-61i17 Block_Col{17|5I12} 70r37
-63i20 Col_Within_Block{integer} 70r59 80r25
-65i22 Global_Row{17|3I12} 72r49
-68i22 Global_Col{17|3I12} 72r61
-71i22 Value{integer} 74r25 77r45
+59i11 Row{17|3I12} 63r69 78r13
+61i14 Col{17|3I12} 63r74 71r19
+63i16 Value{integer} 65r19 68r39
 X 17 sudoku_types.ads
 1K9*Sudoku_Types 15|1w6 1r24 16|3w6 3r32 17|19e17
 3I12*Sudoku_Range{integer} 15|12r15 13r15 17r27 17r47 16|7r38 12r37 31r15
-. 32r15 45r27 45r47 65r44 66r24 68r44 69r24
+. 32r15 45r27 45r47 59r18 61r21
 5I12*Block_Range{integer} 15|23r13 23r26 16|7r59 9r14 20r24 21r27 35r28 36r28
-. 47r28 48r28 59r24 61r30
+. 47r28 48r28
 
